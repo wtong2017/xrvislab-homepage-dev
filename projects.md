@@ -9,7 +9,7 @@ class: projects
 # Projects
 
 {:.lead}
-Here are some projects I have worked on for research, courses, or fun.
+Here are some projects we have worked on for research, courses, or fun.
 
 <div class="grid">
   {% for project in site.data.projects %}

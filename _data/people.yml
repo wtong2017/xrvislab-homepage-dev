@@ -1,39 +1,70 @@
 Linping Yuan:
   url: "https://yuanlinping.github.io/"
-  me: true
+  role: member
+  title: Phd candidate
+  image: linping.png
 
 Huamin Qu:
   url: http://www.huamin.org/
+  role: member
+  title: Chair professor
 
 Jian Zhao:
   url: http://www.jeffjianzhao.com/
-
+  role: other
+  title: Professor
+  
 Wei Zeng:
   url: https://zeng-wei.com/
+  role: other
+  title: Professor
 
 Haotian Li:
   url: https://haotian-li.com/
+  role: other
+  title: Phd candidate
 
 Aoyu Wu:
   url: https://awuac.student.ust.hk/
+  role: other
+  title: post doctoral
 
 Fan Du:
   url: http://frankdu.org/
+  role: other
+  title: Professor
 
 Siwei Fu:
   url: https://fusiwei339.bitbucket.io/
+  role: other
+  title: Professor
 
 Chi-Wing Fu:
   url: https://www.cse.cuhk.edu.hk/~cwfu/
+  role: other
+  title: Professor
 
 Zhicheng Liu:
   url: https://www.zcliu.org/
+  role: other
+  title: Professor
 
 Kwan-Liu Ma:
   url: https://www.cs.ucdavis.edu/~ma/
+  role: other
+  title: Professor
 
 Yingcai Wu:
   url: http://www.ycwu.org/
+  role: other
+  title: Professor
 
 Jianbo Shi:
   url: https://www.cis.upenn.edu/~jshi/
+  role: other
+  title: Professor
+
+Wai Tong:
+  url: https://wtong2017.github.io
+  role: member
+  title: Phd candidate

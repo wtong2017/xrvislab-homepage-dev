@@ -51,7 +51,9 @@ class: pubs
 ## {{ year.name }}
 {:#y{{ year.name }} .year}
 {% for pub in year.items %}
-  {% include publication.html pub=pub %}
+  {% if pub.visible %}
+    {% include publication.html pub=pub %}
+  {% endif %}
 {% endfor %}
 {% endfor %}
 

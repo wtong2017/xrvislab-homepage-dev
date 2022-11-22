@@ -4,40 +4,46 @@ title: "Home"
 class: home
 ---
 
+<picture>
+  <source srcset='/images/welcome_0.jpg' type='image/png' />
+  <img
+    src='/images/welcome_0.jpg'
+    alt='HKUST XRVislab'>
+</picture>
+
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
 
-I am Linping YUAN (袁林萍), a Ph.D. candidate at [HKUST VisLab](http://vis.cse.ust.hk/), at the Department of Computer Science and Engineering of the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by Prof. [Huamin Qu](http://www.huamin.org/). Before that, I obtained my bachelor's degree in Software Engineering from [Xi'an Jiaotong University (XJTU)](http://en.xjtu.edu.cn/) in 2019.
+Extended reaily (XR), including augmented reality (AR) and virtual reality (VR), are the next mainstream computing platforms. Although they have become increasingly accessible in recent years, they have not been widely adopted in daily use. The XR team of HKUST VisLab is devoted to bringing XR into real life and enriching everyone’s XR experience. Our research mission is to design and develop effective XR techniques and user-friendly applications to improve productivity and creativity.
 
-My research interests include Augmented Reality (AR), Human-Computer Interaction (HCI), and Data Visualizations. 
-
-In the first two years of my Ph.D. journey, I focused on how to leverage deep learning methods to facilitate the design of data visualizations and infographics, with an emphasis on color design. I have published two first-author papers on this topic in a top journal.
+We use human-centered design and data-driven methods to innovate XR technology. We have been developing XR applications to facilitate big data analysis for decision making, resulting in novel visualization techniques, interactions, and authoring tools. Our research has contributed to solving various critical real-world challenges, including social media marketing, urban planning, and education. We are cooperating with local communities as living labs to enrich their living experience using XR. Specifically, we are building the HKUST campuses into XR-enhanced campuses to showcase how people in the future can use XR to break the constraints of time and space to live, study, and play together.
 
 </div>
 
-<div class="me" markdown="1">
+<!-- <div class="me" markdown="1">
 <picture>
   <source srcset='/images/linping_profile.png' type='image/png' />
   <img
     src='/images/linping_profile.png'
     alt='Linping YUAN'>
-</picture>
+</picture> -->
 
-{:.no-list}
+<!-- {:.no-list} -->
 <!-- find icons here: https://www.angularjswiki.com/fontawesome/ -->
-* <i class="fa fa-envelope"></i> <a href="mailto:{{ site.email }}"> {{ site.email }}</a>
+<!-- * <i class="fa fa-envelope"></i> <a href="mailto:{{ site.email }}"> {{ site.email }}</a>
 * <i class="fab fa-github"></i> <a href="{{site.github_url}}"> GitHub</a>
-* <i class="fab fa-google"></i> <a href="{{site.google_scholar_url}}">Google Scholar</a>
-</div>
+* <i class="fab fa-google"></i> <a href="{{site.google_scholar_url}}">Google Scholar</a> -->
+
+<!-- </div> -->
 
 </div>
 
-<div class="columns" markdown="1"> 
+<!-- <div class="columns" markdown="1">
 <div class="intro" markdown="1">
-Aiming to explore more unknowns and challenge myself, I shifted my interests to AR/VR and have been exploring the intersection of AR/VR, HCI, and visualization since 2020 summer. Currently, I am a core member of [VisLab AR/VR Team](http://vis.cse.ust.hk/groups/xr-vis/). My ongoing research projects aim to build an AR/VR-enhanced campus and enrich HKUST members' living experience with AR/VR techniques and applications.
+Aiming to explore more unknowns and challenge myself, I shifted my interests to XR and have been exploring the intersection of XR, HCI, and visualization since 2020 summer. Currently, I am a core member of [VisLab XR Team](http://vis.cse.ust.hk/groups/xr-vis/). My ongoing research projects aim to build an XR-enhanced campus and enrich HKUST members' living experience with XR techniques and applications.
 </div>
-</div>
+</div> -->
 
 ## Latest News
 
@@ -50,7 +56,6 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
 </tbody>
 </table>
 </div>
-
 
 ## Featured Projects
 
@@ -73,7 +78,7 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
 <div class="pubs">
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
   {% for pub in sorted_publications %}
-    {% if pub.highlight%}
+    {% if pub.highlight and pub.visible %}
       {% include publication.html pub=pub %}
     {% endif %}
   {% endfor %}
@@ -108,7 +113,6 @@ Aiming to explore more unknowns and challenge myself, I shifted my interests to 
     {% endif %}
   {% endfor %}
 </div> -->
-
 
 <a href="{{ "/publications/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>

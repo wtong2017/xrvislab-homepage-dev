@@ -1,3 +1,20 @@
-{%- assign data = site.data.people[include.person] -%}{%- if data.url -%}<a href="{{ data.url }}" target="_blank">{%- if data.me -%}<span class="author_me">{{include.person}}</span>{%- else -%}{{
-    include.person }}{%- endif -%}</a>{%- else -%}{{ include.person }}{%- endif -%}
-    
+{%- assign data = include.person[1] -%} {%- assign name = include.person[0] -%}
+
+<div class="person">
+  <div class="person-image">
+    <img src="{{ "/assets/people/" | append: data.image | relative_url }}" alt="{{ name }}" />
+  </div>
+  <div class="person-info">
+    <div class="title">
+      {%- if data.url -%}<a href="{{ data.url }}" target="_blank"
+        >{%- if data.me -%}<span class="author_me">{{name}}</span>{%- else -%}{{
+        name }}{%- endif -%}</a
+      >{%- else -%}{{ name }}{%- endif -%}
+    </div>
+    <p>{{ data.title }}</p>
+    <p>{{ data.email }}</p>
+    <p>{{ data.phone }}</p>
+    <p>{{ data.address }}</p>
+    <p>{{ data.website }}</p>
+  </div>
+</div>
