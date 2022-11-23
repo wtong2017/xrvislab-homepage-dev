@@ -1,10 +1,9 @@
 # Site settings
 title: HKUST XRVislab
 description: > # this means to ignore newlines until "baseurl:"
-   I am a Ph.D. candidate at the Hong Kong University of Science and Technology (HKUST). I work on augmented reality, virtual reality, human-computer interaction, and data visualization.
-domain: wtong2017.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://wtong2017.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /xrvislab-homepage-dev/      # place folder name if the site is served in a subfolder
+   HKUST VisLab is a multidisciplinary group. The group is interested in Big Data Analytics, Data Visualization, Human Computer Interaction, Urban Informatics, Explainable AI, E-Learning, Social Media, Social Network/Graph, Fintech, and Augmented Reality. The lab’s mission is to build visualization solutions to address societal needs and make a real-world impact through data visualization.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yuanlinping.github.io" # the base hostname & protocol for your site
 production_url: "https://yuanlinping.github.io"
 permalink: /blog/:year/:month/:title.html
 

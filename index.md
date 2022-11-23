@@ -11,7 +11,9 @@ class: home
     alt='HKUST XRVislab'>
 </picture>
 
-<div class="columns" markdown="1">
+<!-- <div class="columns" markdown="1"> -->
+
+## Introduction
 
 <div class="intro" markdown="1">
 
@@ -37,7 +39,7 @@ We use human-centered design and data-driven methods to innovate XR technology. 
 
 <!-- </div> -->
 
-</div>
+<!-- </div> -->
 
 <!-- <div class="columns" markdown="1">
 <div class="intro" markdown="1">

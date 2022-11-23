@@ -1,19 +1,26 @@
-Linping Yuan:
-  url: "https://yuanlinping.github.io/"
-  role: member
-  title: Phd candidate
-  image: linping.png
-
 Huamin Qu:
   url: http://www.huamin.org/
   role: member
   title: Chair professor
+  image: huamin.jpg
+
+Zikai Alex Wen:
+  url: https://www.zkwen.info/
+  role: member
+  title: Postdoc
+  image: zikai.jpg
+
+Linping Yuan:
+  url: "https://yuanlinping.github.io/"
+  role: member
+  title: PhD candidate
+  image: linping.png
 
 Jian Zhao:
   url: http://www.jeffjianzhao.com/
   role: other
   title: Professor
-  
+
 Wei Zeng:
   url: https://zeng-wei.com/
   role: other
@@ -22,7 +29,7 @@ Wei Zeng:
 Haotian Li:
   url: https://haotian-li.com/
   role: other
-  title: Phd candidate
+  title: PhD candidate
 
 Aoyu Wu:
   url: https://awuac.student.ust.hk/
@@ -67,4 +74,63 @@ Jianbo Shi:
 Wai Tong:
   url: https://wtong2017.github.io
   role: member
-  title: Phd candidate
+  title: PhD candidate
+  image: waitong.png
+
+Kento Shigyo:
+  url: https://csdatastudy.site/
+  role: member
+  title: PhD student
+  image: kento.jpg
+
+Leo Yu-Ho Lo:
+  url: https://leoyuholo.com/
+  role: member
+  title: PhD candidate
+  image: leo.jpg
+
+Yifang Wang:
+  url: http://wangyifang.top/about/
+  role: alumni
+  title: Postdoc
+  image: yifang.jpg
+
+Meng Xia:
+  url: https://www.xiameng.org/
+  role: alumni
+  title: Postdoc
+  image: meng.jpg
+
+Zhutian Chen:
+  url: https://chenzhutian.org/
+  role: alumni
+  title: Postdoc
+  image: zhutian.jpg
+
+Qianwen Wang:
+  url: https://wangqianwen0418.github.io/
+  role: alumni
+  title: Postdoc
+  image: qianwen.jpg
+
+Yijia Su:
+  role: alumni
+  title: Research assistant
+  image: yijia.jpg
+
+Mingqian Zhao:
+  role: alumni
+  title: PhD
+  image: mingqian.png
+
+Xian Xu:
+  url: https://xxuxian.github.io/
+  role: member
+  title: PhD candidate
+  image: xian.jpeg
+
+Jason Wong:
+  url: https://jasonwong.vision/
+  role: member
+  title: PhD candidate
+  image: jason.png
