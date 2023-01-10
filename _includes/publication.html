@@ -2,7 +2,7 @@
 
 <div class="publication" data-pub='{{ pub | jsonify | escape }}'>
   <div class="thumbnail">
-    <img src="{{ pub.image  }}"/>
+    <img src="{{ pub.image | relative_url }}"/>
   </div>
   <div class="publication-content">
     <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>

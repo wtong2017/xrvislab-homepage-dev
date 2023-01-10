@@ -5,9 +5,9 @@ class: home
 ---
 
 <picture>
-  <source srcset='/images/welcome_0.jpg' type='image/png' />
+  <source srcset='{{ site.baseurl }}/images/welcome_0.jpg' type='image/png' />
   <img
-    src='/images/welcome_0.jpg'
+    src='{{ site.baseurl }}/images/welcome_0.jpg'
     alt='HKUST XRVislab'>
 </picture>
 

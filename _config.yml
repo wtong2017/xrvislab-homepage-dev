@@ -2,7 +2,7 @@
 title: HKUST XRVislab
 description: > # this means to ignore newlines until "baseurl:"
    HKUST VisLab is a multidisciplinary group. The group is interested in Big Data Analytics, Data Visualization, Human Computer Interaction, Urban Informatics, Explainable AI, E-Learning, Social Media, Social Network/Graph, Fintech, and Augmented Reality. The lab’s mission is to build visualization solutions to address societal needs and make a real-world impact through data visualization.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/groups/xr-vis" # the subpath of your site, e.g. /blog
 url: "https://yuanlinping.github.io" # the base hostname & protocol for your site
 production_url: "https://yuanlinping.github.io"
 permalink: /blog/:year/:month/:title.html
