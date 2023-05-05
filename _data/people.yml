@@ -10,8 +10,14 @@ Zikai Alex Wen:
   title: Postdoc
   image: zikai.jpg
 
+Leni Yang:
+  url: https://yleni.github.io/
+  role: member
+  title: Postdoc
+  image: leni.jpg
+
 Linping Yuan:
-  url: "https://yuanlinping.github.io/"
+  url: https://yuanlinping.github.io/
   role: member
   title: PhD candidate
   image: linping.png
@@ -30,11 +36,6 @@ Haotian Li:
   url: https://haotian-li.com/
   role: other
   title: PhD candidate
-
-Aoyu Wu:
-  url: https://awuac.student.ust.hk/
-  role: other
-  title: post doctoral
 
 Fan Du:
   url: http://frankdu.org/
@@ -90,27 +91,27 @@ Leo Yu-Ho Lo:
   image: leo.jpg
 
 Yifang Wang:
-  url: http://wangyifang.top/about/
+  url: http://wangyifang.top/
   role: alumni
-  title: Postdoc
+  title: Postdoc@Northwestern
   image: yifang.jpg
 
 Meng Xia:
   url: https://www.xiameng.org/
   role: alumni
-  title: Postdoc
+  title: Assistant professor@TAMU
   image: meng.jpg
 
 Zhutian Chen:
   url: https://chenzhutian.org/
   role: alumni
-  title: Postdoc
+  title: Postdoc@Harvard
   image: zhutian.jpg
 
 Qianwen Wang:
   url: https://wangqianwen0418.github.io/
   role: alumni
-  title: Postdoc
+  title: Postdoc@Harvard
   image: qianwen.jpg
 
 Yijia Su:
@@ -134,3 +135,21 @@ Jason Wong:
   role: member
   title: PhD candidate
   image: jason.png
+
+Haobo Li:
+  url: https://hobolee.github.io/
+  role: member
+  title: PhD student
+  image: haobo.jpg
+
+Kentaro Takahira:
+  url: https://www.kentarotakahira.com/
+  role: member
+  title: PhD student
+  image: kentaro.png
+
+Aoyu Wu:
+  url: https://wowjyu.github.io/
+  role: alumni
+  title: Postdoc@Harvard
+  image: wuaoyu.jpg

@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  jekyll:
+      image: jekyll/jekyll:3.8
+      command: jekyll serve --watch --config _config.yml
+      ports:
+          - 4000:4000
+      volumes:
+          - .:/srv/jekyll
+          - ./vendor/bundle:/usr/local/bundle
