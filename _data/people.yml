@@ -4,11 +4,11 @@ Huamin Qu:
   title: Chair professor
   image: huamin.jpg
 
-Zikai Alex Wen:
-  url: https://www.zkwen.info/
+Xian Xu:
+  url: https://xxuxian.github.io/
   role: member
-  title: Postdoc
-  image: zikai.jpg
+  title: Research assistant professor
+  image: xian.jpeg
 
 Leni Yang:
   url: https://yleni.github.io/
@@ -39,6 +39,10 @@ Haotian Li:
 
 Fan Du:
   url: http://frankdu.org/
+  role: other
+  title: Professor
+
+Ting-Chuen Pong:
   role: other
   title: Professor
 
@@ -74,8 +78,8 @@ Jianbo Shi:
 
 Wai Tong:
   url: https://wtong2017.github.io
-  role: member
-  title: PhD candidate
+  role: alumni
+  title: Instruction assistant professor@TAMU
   image: waitong.png
 
 Kento Shigyo:
@@ -123,12 +127,6 @@ Mingqian Zhao:
   role: alumni
   title: PhD
   image: mingqian.png
-
-Xian Xu:
-  url: https://xxuxian.github.io/
-  role: member
-  title: PhD candidate
-  image: xian.jpeg
 
 Jason Wong:
   url: https://jasonwong.vision/
